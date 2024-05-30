@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bokeh-notebook-interactive-graphs-example"
+version = "0.1.0"
+description = "An example of how to create high performance interactive graphs inside notebooks using bokeh"
+authors = ["Happily-Coding <salvio.uriel@gmail.com>"]
+license = "BSD0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12" #For data analysis and ml
+bokeh = "^3.4.1" #For modifying or creating high performance interactive graphs
+ipykernel = "^6.29.4" #To run the notebooks inside the venv, using vs code.
+ipywidgets = "^8.1.3" #For making ui for serverless interactions with bokeh plots (for example sliders, selection boxes, etc)
+jupyter-bokeh = "^4.0.4" #For making bokeh serverless interactive plots work in notebooks
+kaggle = "^1.6.5" #For getting the competition dataset programatically
+#jupyter = "^1.0.0" #For being able to run jupyter lab
